@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Calculator</title>
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="./image.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- body -->
+<body style="background-color: black;">
+    <h1 style="color: white;">Calculator</h1><br>
+    <div class="container">
+        <form>
+            <!-- company of calculator  -->
+        <p>Citizen</p>
+        <h6>CT-512</h6>
+        <input type="text" placeholder="0" id="screen">
+        <br><br>
+        <!-- different buttons and their class,id ,value and functions -->
+        <input type="button" class="button number" onclick="clearscreen(value)" id="first"  value="C">
+        <input type="button" class="button equal" onclick="removelastitem()" id="first"value="&#9003">
+        <input type="button" class="button number" onclick="btnclick(value)" id="first"  value="%">
+        <input type="button" class="button operator" onclick="btnclick(value)" id="second"  value="/">
+        <br>
+        <input type="button" class="button number" onclick="btnclick(value)"   value="7">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="8">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="9">
+        <input type="button" class="button operator" onclick="btnclick(value)" id="second" value="*">
+        <br> 
+        <input type="button" class="button number" onclick="btnclick(value)"  value="4">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="5">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="6">
+        <input type="button" class="button operator" onclick="btnclick(value)" id="second" value="-">
+        <br>
+        <input type="button" class="button number" onclick="btnclick(value)"  value="1">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="2">
+        <input type="button" class="button number" onclick="btnclick(value)"  value="3">
+        <input type="button" class="button equal" onclick="btnclick(value)" value="+" id="second">
+        <br>
+        <input type="button" value="0" id="clear" class="button number" onclick="btnclick(value)">
+        <input type="button" class="button number" onclick="btnclick(value)"  value=".">
+        <input type="button" class="button number" onclick="findresult(value)"  value="="  id="second">
+<!-- developer details -->
+<h6 style="text-align: center;">Designed & Developed:Varghese Sabu</h6>
+        </form>
+    
+    </div>
+<!-- javascript -->
+
+    <script src="./script.js"></script>
+
+
+    <!-- end of code -->
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
